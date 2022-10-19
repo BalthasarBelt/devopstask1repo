@@ -7,6 +7,7 @@ for i in "${services[@]}"
 do
   if systemctl is-active --quiet $i && msg="$i service is running" ; then
     systemctl is-enabled --quiet $i && msg="${msg} and is enabled"
+  else msg="$i service is stopped"
   fi
   echo $msg | tee -a service-checklog
 done
