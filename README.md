@@ -1,4 +1,4 @@
-# devopstask1branch+bashscript\\
+# devopstask1branch+bashscript\
 
 1 - Create a new public repo.\
 2 - Clone repo locally. In the maste/rmain branch create/edit README.md will some basic stuff of your choice.\
